@@ -134,3 +134,32 @@ body {
   border: 4px solid #3882f6;
   border-radius: 10px;
 }
+
+.container-image-text figcaption {
+  font-size: 18px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.third-section {
+  background-color: #e5e7eb;
+  padding: 5em 20em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.third-section blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.third-section p {
+  font-size: 18px;
+  color: #1f2937;
+  text-align: right;
+  font-weight: bold;
+}
