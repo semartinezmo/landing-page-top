@@ -16,7 +16,7 @@ body {
 .header-container {
   background-color: #1f2937;
   display: flex;
-  padding: 1em 10em;
+  padding: 1em 16em;
 }
 
 .logo-container {
@@ -26,8 +26,8 @@ body {
 }
 
 .logo-container h1 {
-  color: white;
-  margin-left: 10px;
+  color: #f9faf8;
+  margin-left: 24px;
 }
 
 .logo-container img {
@@ -49,9 +49,88 @@ body {
 
 .header-container li a {
   text-decoration: none;
-  color: white;
+  color: #e5e7eb;
+  font-size: 18px;
   padding: 10px;
 }
+
 .first-section {
   background-color: #1f2937;
+  padding: 5em 16em;
+  display: flex;
+}
+
+.text-wrapper-first {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 40%;
+  gap: 1em;
+}
+
+.text-wrapper-first h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.text-wrapper-first p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.image-wrapper-first {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 0 0 60%;
+}
+
+.image-wrapper-first img {
+  width: 600px;
+  height: 304.31px;
+  object-fit: cover;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  font-weight: bold;
+}
+
+.second-section {
+  padding: 5em 16em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.second-section h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.container-images-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-image-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 200px;
+}
+
+.container-image-text img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
 }
